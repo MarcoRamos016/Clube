@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/Loginnatação.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    backdrop-filter: blur(30px);
+    background: #ffffff40;;
+    border: 8px solid #00000090;;
+    margin: 0%;
+    padding:0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+button>a{
+    font-size: 35px;
+    color: rgb(255, 245, 245);
+    text-decoration: none;
+
+}
+
+button{
+    background: none;
+    border: none;
+    transition: 400ms;
+}
+
+a:hover{
+    color: rgb(27, 117, 219);
+
+}
+
+button:hover{
+    transform: scale(1.2);
+
+}
+
+    #container{
+        padding: 0px 25px;
+        align-items: center;
+        
+    }
+
+
+.right-login{
+    padding-top: 6%;
+    width: 50%;
+    height: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px  35px;
+    background: rgb(15, 15, 15);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(0, 0, 0);
+    
+}
+
+.card-login > h1{
+    color: rgb(40, 197, 137);
+    font-weight: 800;
+    margin: 0;
+    font-size: 50px;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(46, 40, 48);
+    color: rgb(49, 170, 179);
+    font-size:  12pt;
+    box-shadow: 0px 10px 40px black;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: rgb(32, 211, 142);
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: rgb(244, 238, 247);
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(25, 10, 39);
+    background: rgb(33, 192, 99);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(36, 167, 112);
+}
+
+.container1{
+    padding: 0px 25px;
+}
+
+.sexo{
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+border-radius: 20px;
+background-color:rgb(15, 15, 15);
+padding-left: 20%;
+padding-right: 20%;
+box-shadow: 0px 10px 40px rgb(0, 0, 0);
+}
+
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+
+.navbar a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #2600ff, #1da766);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.7s;
+}
+
+.navbar a:hover::after{
+    width: 100px;
+}
